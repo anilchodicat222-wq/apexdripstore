@@ -32,9 +32,11 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
-          # Unique for each run/attempt, so retries cannot leave duplicate
-          # "github-pages" artifacts that confuse the deploy action.
+          # Unique for each run/attempt, so retries cannot leave duplicate artifacts.
           name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
+
+      - name: Wait for Pages artifact registration
+        run: sleep 20
 
       - name: Deploy to GitHub Pages
         id: deployment
