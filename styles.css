@@ -1007,3 +1007,8 @@ dialog::backdrop{background:#0c0b15bf;backdrop-filter:blur(5px)}
 .download-meta{color:#8d8a9c;font-size:12px}
 .info-copy .btn-primary{white-space:normal;text-align:center;color:#181e0d;text-decoration:none}
 .download-meta-dark{font-weight:600;opacity:.75}
+
+/* Sovrn / GTRACING Featured Deals spotlight */
+.gtracing-featured-callout{margin-top:22px;padding:20px;border:1px solid rgba(255,255,255,.13);border-radius:16px;background:linear-gradient(135deg,rgba(255,45,85,.13),rgba(255,255,255,.035));}
+.gtracing-featured-callout h3{margin:8px 0;font-size:clamp(1.25rem,2vw,1.8rem);}
+.gtracing-featured-callout p{max-width:46ch;margin:8px 0 16px;color:var(--muted,#aaa);}

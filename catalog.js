@@ -2525,6 +2525,25 @@
      "shipping": "Free shipping within Chile on this promotion, per the offer terms.",
      "linkType": "affiliate"
     }
+    ,{
+     "id": "gtracing-sovrn-chair",
+     "name": "GTRACING Gaming Chair",
+     "brand": "GTRACING",
+     "retailer": "Walmart",
+     "category": "Gaming",
+     "type": "Gaming Chairs",
+     "badge": "FEATURED DEAL",
+     "description": "Explore the GTRACING gaming chair offer on Walmart. Check the retailer page for current price, colour options, availability and delivery details.",
+     "image": "assets/gaming-chair.webp",
+     "affiliateUrl": "https://sovrn.co/pzav1br",
+     "featured": true,
+     "region": "International",
+     "currency": "",
+     "price": null,
+     "also": [],
+     "linkType": "affiliate",
+     "shipping": "Availability and delivery options are shown by Walmart at checkout."
+    }
    ]
   };
   root.APEX_CATALOG = catalog;
