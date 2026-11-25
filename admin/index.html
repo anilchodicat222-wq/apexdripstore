@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0d0d14">
+  <title>Control Room | APEXDRIP</title>
+  <link rel="icon" href="/assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/admin/admin.css">
+  <script src="/catalog.js" defer></script>
+  <script src="/product-ui.js" defer></script>
+  <script type="module" src="/admin/admin.js"></script>
+</head>
+<body class="admin-body">
+  <main id="authScreen" class="auth-screen">
+    <div class="auth-card">
+      <a class="brand" href="/"><img class="brand-logo" src="/assets/logo.webp" alt="APEXDRIP logo" width="38" height="38"><span>APEX<span>DRIP</span></span></a>
+      <div class="eyebrow">APEXDRIP / CONTROL ROOM</div>
+      <h1 id="authTitle">Owner sign-in</h1>
+      <p class="auth-help" id="authHelp">This area is for the site owner. Sign in with the account that has owner access.</p>
+      <form id="loginForm" class="auth-form">
+        <label class="field">Email<input name="email" type="email" autocomplete="username" required></label>
+        <label class="field">Password<input name="password" type="password" autocomplete="current-password" required minlength="6"></label>
+        <button class="btn btn-primary" type="submit">SIGN IN</button>
+        <button class="link-btn" type="button" id="forgotBtn">Forgot password?</button>
+      </form>
+      <form id="passwordForm" class="auth-form" hidden>
+        <label class="field">New password<input name="password" type="password" autocomplete="new-password" required minlength="8"></label>
+        <button class="btn btn-primary" type="submit">SAVE PASSWORD</button>
+      </form>
+      <p class="auth-message" id="authMessage" role="status" aria-live="polite"></p>
+      <a class="text-link" href="/">← BACK TO THE HUB</a>
+    </div>
+  </main>
+  <div class="admin-shell" id="adminShell" hidden>
+    <aside class="admin-sidebar">
+      <a class="brand" href="/"><img class="brand-logo" src="/assets/logo.webp" alt="APEXDRIP logo" width="38" height="38"><span>APEX<span>DRIP</span></span></a>
+      <div class="admin-label">WORKSPACE</div>
+      <button class="admin-tab active" data-tab="overview" type="button">Overview</button>
+      <button class="admin-tab" data-tab="products" type="button">Products</button>
+      <button class="admin-tab" data-tab="add" type="button">Add product</button>
+      <div class="admin-sidebar-bottom">
+        <p class="admin-user" id="adminUser"></p>
+        <button class="back-site" id="logoutBtn" type="button">Sign out</button>
+        <a class="back-site" href="/">← Back to The Hub</a>
+      </div>
+    </aside>
+    <main class="admin-main">
+      <div class="admin-top">
+        <div><div class="eyebrow">APEXDRIP / CONTROL ROOM</div><h2 id="adminTitle">OVERVIEW</h2></div>
+        <div class="form-actions"><span class="draft-state" id="draftState"></span><button class="btn btn-ghost" id="adminAddBtn" type="button">＋ ADD PRODUCT</button><button class="btn btn-primary" id="publishBtn" type="button">PUBLISH CHANGES</button></div>
+      </div>
+      <p class="auth-message" id="adminMessage" role="status" aria-live="polite"></p>
+      <div id="adminView"></div>
+    </main>
+  </div>
+</body>
+</html>

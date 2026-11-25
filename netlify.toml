@@ -1,0 +1,88 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "24"
+
+# Owner dashboard: never cache or index. All data and edits are protected server-side by /api/admin/*.
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    Cache-Control = "no-store"
+    X-Robots-Tag = "noindex, nofollow"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "no-referrer"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    X-Frame-Options = "SAMEORIGIN"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+
+# Old links to the in-page dashboard now go to the secure Control Room.
+[[redirects]]
+  from = "/admin"
+  to = "/admin/"
+  status = 301
+
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+
+# Downloads area (/downloads/): full-site zip, single pages and scripts. Always fresh, never indexed.
+[[headers]]
+  for = "/downloads/*"
+  [headers.values]
+    Cache-Control = "no-cache"
+    X-Robots-Tag = "noindex, nofollow"
+
+# The files themselves always save as a download instead of opening in the browser.
+[[headers]]
+  for = "/downloads/apexdripstore-html.zip"
+  [headers.values]
+    Content-Disposition = "attachment; filename=\"apexdripstore-html.zip\""
+
+[[headers]]
+  for = "/downloads/pages/*"
+  [headers.values]
+    Content-Disposition = "attachment"
+
+[[headers]]
+  for = "/downloads/files/*"
+  [headers.values]
+    Content-Disposition = "attachment"
+
+# Common ways people type the download address all reach the Downloads page or the zip.
+[[redirects]]
+  from = "/download"
+  to = "/downloads/"
+  status = 301
+
+[[redirects]]
+  from = "/download/*"
+  to = "/downloads/"
+  status = 301
+
+[[redirects]]
+  from = "/apexdripstore-html.zip"
+  to = "/downloads/apexdripstore-html.zip"
+  status = 301
+
+[[redirects]]
+  from = "/downloads/apexdripstore-html"
+  to = "/downloads/apexdripstore-html.zip"
+  status = 301
+
+[[redirects]]
+  from = "/downloads/*"
+  to = "/downloads/"
+  status = 302

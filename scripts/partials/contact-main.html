@@ -1,0 +1,45 @@
+<div class="section contact-section">
+    <div class="contact-intro">
+      <span class="eyebrow">GET IN TOUCH</span>
+      <h2>Send us a <em>message.</em></h2>
+      <p>For business inquiries, brand collaborations, affiliate partnerships or general questions, send us a message.</p>
+      <ul class="contact-topics" aria-label="What you can contact us about">
+        <li>Business inquiries</li>
+        <li>Brand collaborations</li>
+        <li>Affiliate partnerships</li>
+        <li>General questions</li>
+      </ul>
+      <div class="contact-social"><span class="eyebrow">FOLLOW APEXDRIP</span><p>See new finds, deals and setup ideas on our social channels.</p><div class="social-links"><a href="https://www.instagram.com/apexdripstore" target="_blank" rel="noopener me" aria-label="APEXDRIP on Instagram (opens in a new tab)"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".7" fill="currentColor" stroke="none"/></svg><span>Instagram</span></a><a href="https://www.facebook.com/61596759547447/" target="_blank" rel="noopener me" aria-label="APEXDRIP on Facebook (opens in a new tab)"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 3.5H17v3.6h-2.1c-.7 0-1.1.4-1.1 1.1v2.3H17l-.5 3.6h-2.7v6.4H10v-6.4H7.5v-3.6H10V7.6c0-2.5 1.6-4.1 4.5-4.1Z"/></svg><span>Facebook</span></a></div></div>
+    </div>
+    <div class="contact-card">
+      <form id="contactForm" class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="subject" value="New APEXDRIP contact message (%{submissionId})">
+        <p class="hidden"><label>Don&rsquo;t fill this out: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+        <div class="form-grid">
+          <label class="field">Your name<input type="text" name="name" autocomplete="name" maxlength="120" required></label>
+          <label class="field">Your email<input type="email" name="email" autocomplete="email" maxlength="200" required></label>
+          <label class="field full">Topic
+            <select name="topic" required>
+              <option value="Business inquiry">Business inquiry</option>
+              <option value="Brand collaboration">Brand collaboration</option>
+              <option value="Affiliate partnership">Affiliate partnership</option>
+              <option value="General question" selected>General question</option>
+            </select>
+          </label>
+          <label class="field full">Company or brand <span class="field-optional">(optional)</span><input type="text" name="company" autocomplete="organization" maxlength="160"></label>
+          <label class="field full">Message<textarea name="message" rows="6" maxlength="5000" required></textarea></label>
+        </div>
+        <div class="contact-actions">
+          <button class="btn btn-primary" id="contactSubmit" type="submit">SEND MESSAGE <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button>
+          <p class="contact-note">We usually reply within a few business days.</p>
+        </div>
+        <p id="contactStatus" class="contact-status" role="alert"></p>
+      </form>
+      <div id="contactSuccess" class="contact-success" tabindex="-1" role="status" hidden>
+        <span class="eyebrow">MESSAGE SENT</span>
+        <h3>Thanks for <em>reaching out.</em></h3>
+        <p>We&rsquo;ve received your message and will get back to you at the email address you provided.</p>
+        <div class="contact-actions"><button class="btn btn-ghost" id="contactAgain" type="button">SEND ANOTHER MESSAGE</button><a class="btn btn-primary" href="index.html#hub">BACK TO THE HUB</a></div>
+      </div>
+    </div>
+  </div>

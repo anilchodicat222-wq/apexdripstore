@@ -1,0 +1,20 @@
+{
+  "name": "apexdripstore",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "pages": "node scripts/generate-pages.mjs && node scripts/prerender-home.mjs"
+  },
+  "dependencies": {
+    "@netlify/database": "^2.0.4",
+    "@netlify/identity": "^2.0.1",
+    "@netlify/server": "^0.1.6",
+    "drizzle-orm": "^1.0.0-beta.22",
+    "esbuild": "^0.28.2"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^6.1.2",
+    "drizzle-kit": "^1.0.0-beta.22"
+  }
+}

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /downloads/
+
+Sitemap: https://apexdripstore.com/sitemap.xml
