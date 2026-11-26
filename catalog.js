@@ -3,7 +3,7 @@
    Prices are only listed when they were checked on the retailer's site (see priceCheckedOn). */
 (function (root) {
   var catalog = {
-   "updated": "2026-11-25",
+   "updated": "2026-11-26",
    "regions": [
     {
      "key": "india",
@@ -82,7 +82,7 @@
      "name": "REDMAGIC",
      "category": "Gaming",
      "region": "Global",
-     "url": "https://yyczo.com/g/qmttmvxh1ueed0414bd056637026d8/",
+     "url": "https://yyczo.com/c/qmttmvxh1ueed0414bd056637026d8/",
      "tag": "Gaming phones & tablets"
     },
     {
@@ -103,8 +103,50 @@
      "name": "Kinguin",
      "category": "Gaming",
      "region": "Global",
-     "url": "https://www.kinguin.net/",
+     "url": "https://ficca2021.com/c/ai7w5urbcieed0414bd073f469699a/",
      "tag": "Digital games marketplace"
+    },
+    {
+     "name": "AliExpress",
+     "category": "Technology & Gadgets",
+     "region": "Worldwide",
+     "url": "https://rzekl.com/c/1e8d114494eed0414bd016525dc3e8/",
+     "tag": "Global marketplace"
+    },
+    {
+     "name": "Geekbuying",
+     "category": "Technology & Gadgets",
+     "region": "Worldwide",
+     "url": "https://bywiola.com/c/78tuvzaw8keed0414bd00267b86f6e/",
+     "tag": "Electronics & smart gadgets"
+    },
+    {
+     "name": "Gshopper",
+     "category": "Technology & Gadgets",
+     "region": "Many regions",
+     "url": "https://bywiola.com/c/nx2yncwth6eed0414bd0d497214fca/",
+     "tag": "Global shopping marketplace"
+    },
+    {
+     "name": "Sunsky-online",
+     "category": "Technology & Gadgets",
+     "region": "Worldwide",
+     "url": "https://dorinebeaumont.com/c/7npkd4cs1ieed0414bd0869a299fda/",
+     "tag": "Electronics & accessories"
+    },
+    {
+     "name": "ChicMe",
+     "category": "Lifestyle",
+     "region": "Worldwide",
+     "url": "https://rzekl.com/c/gf807z8tareed0414bd0312b8f391a/",
+     "tag": "Fashion & apparel"
+    },
+    {
+     "name": "DKNY",
+     "category": "Lifestyle",
+     "region": "AE / SA / KW",
+     "url": "https://plrvq.com/g/o8vhdobxgseed0414bd0414deb9469/",
+     "tag": "Fashion & accessories"
     },
     {
      "name": "Secretlab",
@@ -1091,7 +1133,7 @@
      "badge": "NEW FLAGSHIP",
      "description": "A flagship gaming phone with Snapdragon 8 Elite Extreme Gen 6, AquaCore Cooling 3.0 and a 6.85-inch 185Hz AMOLED display.",
      "image": "assets/shop-rm-12-pro.webp",
-     "affiliateUrl": "https://yyczo.com/g/qmttmvxh1ueed0414bd056637026d8/",
+     "affiliateUrl": "https://yyczo.com/c/qmttmvxh1ueed0414bd056637026d8/",
      "featured": true,
      "region": "International",
      "currency": "",
@@ -1109,7 +1151,7 @@
      "badge": "PRO GAMING",
      "description": "A flagship gaming phone powered by Snapdragon 8 Elite Gen 5 Leading Version for long, high-frame-rate sessions.",
      "image": "assets/shop-rm-11s-pro.webp",
-     "affiliateUrl": "https://yyczo.com/g/qmttmvxh1ueed0414bd056637026d8/",
+     "affiliateUrl": "https://yyczo.com/c/qmttmvxh1ueed0414bd056637026d8/",
      "featured": true,
      "region": "International",
      "currency": "",
@@ -1127,7 +1169,7 @@
      "badge": "LIQUID COOLED",
      "description": "A gaming phone with liquid AquaCore cooling, a 7,500mAh battery and 80W wired and wireless fast charging.",
      "image": "assets/shop-rm-11-pro.webp",
-     "affiliateUrl": "https://yyczo.com/g/qmttmvxh1ueed0414bd056637026d8/",
+     "affiliateUrl": "https://yyczo.com/c/qmttmvxh1ueed0414bd056637026d8/",
      "featured": false,
      "region": "International",
      "currency": "",
@@ -1145,7 +1187,7 @@
      "badge": "SLIM & FAST",
      "description": "A slim, transparent gaming phone with Snapdragon 8 Elite, a 7,000mAh battery and a 144Hz display.",
      "image": "assets/shop-rm-11-air.webp",
-     "affiliateUrl": "https://yyczo.com/g/qmttmvxh1ueed0414bd056637026d8/",
+     "affiliateUrl": "https://yyczo.com/c/qmttmvxh1ueed0414bd056637026d8/",
      "featured": false,
      "region": "International",
      "currency": "",
@@ -1163,7 +1205,7 @@
      "badge": "TABLET POWER",
      "description": "A compact gaming tablet with Snapdragon 8 Elite Gen 5, a 9.06-inch 185Hz OLED display and liquid cooling.",
      "image": "assets/shop-rm-astra-2-gaming-tablet.webp",
-     "affiliateUrl": "https://yyczo.com/g/qmttmvxh1ueed0414bd056637026d8/",
+     "affiliateUrl": "https://yyczo.com/c/qmttmvxh1ueed0414bd056637026d8/",
      "featured": true,
      "region": "International",
      "currency": "",
@@ -1181,7 +1223,7 @@
      "badge": "POCKET OLED",
      "description": "A 9.06-inch 2.4K OLED gaming tablet with Snapdragon 8 Elite and an 8,200mAh battery.",
      "image": "assets/shop-rm-astra-gaming-tablet.webp",
-     "affiliateUrl": "https://yyczo.com/g/qmttmvxh1ueed0414bd056637026d8/",
+     "affiliateUrl": "https://yyczo.com/c/qmttmvxh1ueed0414bd056637026d8/",
      "featured": false,
      "region": "International",
      "currency": "",
@@ -1199,7 +1241,7 @@
      "badge": "AAA READY",
      "description": "A gaming tablet built on Snapdragon 8 Gen 3 Leading Version to handle demanding games.",
      "image": "assets/shop-rm-nova-gaming-tablet.webp",
-     "affiliateUrl": "https://yyczo.com/g/qmttmvxh1ueed0414bd056637026d8/",
+     "affiliateUrl": "https://yyczo.com/c/qmttmvxh1ueed0414bd056637026d8/",
      "featured": false,
      "region": "International",
      "currency": "",
@@ -1217,7 +1259,7 @@
      "badge": "MOBILE CONTROLLER",
      "description": "A lightweight mobile controller with Hall joysticks, RGB lighting and a 6-axis gyroscope for phones and tablets.",
      "image": "assets/shop-rm-shadow-blade-gamepad-3.webp",
-     "affiliateUrl": "https://yyczo.com/g/qmttmvxh1ueed0414bd056637026d8/",
+     "affiliateUrl": "https://yyczo.com/c/qmttmvxh1ueed0414bd056637026d8/",
      "featured": true,
      "region": "International",
      "currency": "",
@@ -1235,7 +1277,7 @@
      "badge": "4K MINILED",
      "description": "A 4K miniLED gaming monitor with a 160Hz refresh rate.",
      "image": "assets/shop-rm-4k-gaming-monitor.webp",
-     "affiliateUrl": "https://yyczo.com/g/qmttmvxh1ueed0414bd056637026d8/",
+     "affiliateUrl": "https://yyczo.com/c/qmttmvxh1ueed0414bd056637026d8/",
      "featured": false,
      "region": "International",
      "currency": "",
@@ -1253,7 +1295,7 @@
      "badge": "SWAP THE KEYS",
      "description": "A mechanical keyboard with TTC Speed Silver V2 switches and easy-to-swap keycaps.",
      "image": "assets/shop-rm-mechanical-keyboard.webp",
-     "affiliateUrl": "https://yyczo.com/g/qmttmvxh1ueed0414bd056637026d8/",
+     "affiliateUrl": "https://yyczo.com/c/qmttmvxh1ueed0414bd056637026d8/",
      "featured": false,
      "region": "International",
      "currency": "",
@@ -1273,7 +1315,7 @@
      "badge": "BOLD DESIGN",
      "description": "A gaming mouse that balances precision and comfort for long PC sessions.",
      "image": "assets/shop-rm-gaming-mouse.webp",
-     "affiliateUrl": "https://yyczo.com/g/qmttmvxh1ueed0414bd056637026d8/",
+     "affiliateUrl": "https://yyczo.com/c/qmttmvxh1ueed0414bd056637026d8/",
      "featured": false,
      "region": "International",
      "currency": "",
@@ -1293,7 +1335,7 @@
      "badge": "CHILL MODE",
      "description": "A magnetic phone cooler with a 36W cooling engine, turbo fan and a quiet mode for long mobile gaming sessions.",
      "image": "assets/shop-rm-cryo-cooler-8-pro.webp",
-     "affiliateUrl": "https://yyczo.com/g/qmttmvxh1ueed0414bd056637026d8/",
+     "affiliateUrl": "https://yyczo.com/c/qmttmvxh1ueed0414bd056637026d8/",
      "featured": true,
      "region": "International",
      "currency": "",
@@ -1311,7 +1353,7 @@
      "badge": "FAST CHARGE",
      "description": "An 80W fast charger for quick power-ups between gaming sessions.",
      "image": "assets/shop-rm-80w-fast-charger.webp",
-     "affiliateUrl": "https://yyczo.com/g/qmttmvxh1ueed0414bd056637026d8/",
+     "affiliateUrl": "https://yyczo.com/c/qmttmvxh1ueed0414bd056637026d8/",
      "featured": false,
      "region": "International",
      "currency": "",
@@ -1329,7 +1371,7 @@
      "badge": "GAME AUDIO",
      "description": "Wired USB-C earphones tuned for clear in-game audio.",
      "image": "assets/shop-rm-magic-sound-earphones-usb-c.webp",
-     "affiliateUrl": "https://yyczo.com/g/qmttmvxh1ueed0414bd056637026d8/",
+     "affiliateUrl": "https://yyczo.com/c/qmttmvxh1ueed0414bd056637026d8/",
      "featured": false,
      "region": "International",
      "currency": "",
@@ -2098,7 +2140,7 @@
      "currency": "",
      "price": null,
      "also": [],
-     "linkType": "retailer",
+     "linkType": "affiliate",
      "shipping": "Global or regional store. Availability, currency, duties and shipping depend on your country."
     },
     {
@@ -2109,7 +2151,7 @@
      "badge": "DIGITAL FINDS",
      "description": "Explore digital game listings. Review seller, region and activation details before purchase.",
      "image": "assets/game-keys.webp",
-     "affiliateUrl": "https://www.kinguin.net/",
+     "affiliateUrl": "https://ficca2021.com/c/ai7w5urbcieed0414bd073f469699a/",
      "featured": false,
      "type": "Game Offers",
      "region": "International",
