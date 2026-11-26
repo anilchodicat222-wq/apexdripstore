@@ -66,10 +66,9 @@
       <div class="contact-social"><span class="eyebrow">FOLLOW APEXDRIP</span><p>See new finds, deals and setup ideas on our social channels.</p><div class="social-links"><a href="https://www.instagram.com/apexdripstore" target="_blank" rel="noopener me" aria-label="APEXDRIP on Instagram (opens in a new tab)"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".7" fill="currentColor" stroke="none"/></svg><span>Instagram</span></a><a href="https://www.facebook.com/61596759547447/" target="_blank" rel="noopener me" aria-label="APEXDRIP on Facebook (opens in a new tab)"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 3.5H17v3.6h-2.1c-.7 0-1.1.4-1.1 1.1v2.3H17l-.5 3.6h-2.7v6.4H10v-6.4H7.5v-3.6H10V7.6c0-2.5 1.6-4.1 4.5-4.1Z"/></svg><span>Facebook</span></a></div></div>
     </div>
     <div class="contact-card">
-      <form id="contactForm" class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-        <input type="hidden" name="form-name" value="contact">
-        <input type="hidden" name="subject" value="New APEXDRIP contact message (%{submissionId})">
-        <p class="hidden"><label>Don&rsquo;t fill this out: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+      <form id="contactForm" class="contact-form" name="contact" method="POST">
+        <input type="hidden" name="_subject" value="New APEXDRIP contact message">
+        <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true">
         <div class="form-grid">
           <label class="field">Your name<input type="text" name="name" autocomplete="name" maxlength="120" required></label>
           <label class="field">Your email<input type="email" name="email" autocomplete="email" maxlength="200" required></label>
@@ -108,9 +107,15 @@
     if(!form.reportValidity())return;
     btn.disabled=true;btn.firstChild.textContent='SENDING… ';
     status.className='contact-status';status.textContent='';
-    fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(form)).toString()})
-      .then(function(r){if(!r.ok)throw new Error(r.status);form.reset();form.hidden=true;document.getElementById('contactSuccess').hidden=false;document.getElementById('contactSuccess').focus();})
-      .catch(function(){status.className='contact-status is-error';status.textContent='Your message could not be sent. Please check your connection and try again.';})
+    var data=Object.fromEntries(new FormData(form).entries());
+    fetch('https://formsubmit.co/ajax/anilchodicat222@gmail.com',{
+      method:'POST',
+      headers:{'Content-Type':'application/json','Accept':'application/json'},
+      body:JSON.stringify(data)
+    })
+      .then(function(r){return r.json().then(function(data){if(!r.ok||!data.success)throw new Error(data.message||'Submission failed');return data;});})
+      .then(function(){form.reset();form.hidden=true;document.getElementById('contactSuccess').hidden=false;document.getElementById('contactSuccess').focus();})
+      .catch(function(){status.className='contact-status is-error';status.textContent='Your message could not be sent. Please try again in a moment or email us directly.';})
       .then(function(){btn.disabled=false;btn.firstChild.textContent='SEND MESSAGE ';});
   });
   document.getElementById('contactAgain').addEventListener('click',function(){document.getElementById('contactSuccess').hidden=true;form.hidden=false;form.querySelector('input').focus();});
