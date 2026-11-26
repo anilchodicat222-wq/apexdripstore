@@ -76,7 +76,7 @@ function revealIn(host) {
 }
 
 function renderBrands() {
-  $("#brandDirectory").innerHTML = brands.map(brand => `<a class="brand-tile" href="${escapeHtml(brand.url)}" target="_blank" rel="noopener noreferrer"><span class="brand-tile-name">${escapeHtml(brand.name)}</span><span class="brand-tile-tag">${escapeHtml(brand.tag)}</span><span class="brand-tile-region">${escapeHtml(brand.region)}</span>${icon("external")}</a>`).join("");
+  $("#brandDirectory").innerHTML = brands.map(brand => `<a class="brand-tile" href="${escapeHtml(brand.url)}" target="_blank" rel="sponsored nofollow noopener noreferrer"><span class="brand-tile-name">${escapeHtml(brand.name)}</span><span class="brand-tile-tag">${escapeHtml(brand.tag)}</span><span class="brand-tile-region">${escapeHtml(brand.region)}</span>${icon("external")}</a>`).join("");
 }
 function renderDepartments() {
   $("#departmentGrid").innerHTML = UI.departmentCards(products);
