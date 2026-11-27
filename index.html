@@ -359,37 +359,71 @@
           <a class="sky-link" href="https://dorinebeaumont.com/c/7npkd4cs1ieed0414bd0869a299fda/" target="_blank" rel="sponsored noopener noreferrer" aria-label="Upgrade your everyday: explore tech deals on smart gadgets, mobile gear, gaming tech and camera accessories (opens in a new tab)"></a>
         </div>
       </section>
-      <section class="wrap chic-ads" id="lifestyleAds" aria-label="Sponsored fashion deal" hidden>
-        <div class="chic-ad">
-          <div class="chic-slides" aria-hidden="true"><span class="chic-slide"></span><span class="chic-slide"></span><span class="chic-slide"></span><span class="chic-slide"></span></div>
-          <span class="chic-glow" aria-hidden="true"></span>
-          <div class="chic-top-label">✦ THE NEW FASHION EDIT ✦</div>
-          <div class="chic-hero">
-            <div class="chic-small-title">YOUR STYLE. YOUR MOMENT.</div>
-            <div class="chic-title">FASHION<br><span>FORWARD</span></div>
-            <div class="chic-offer">UP TO <b>70% OFF</b></div>
-            <p>Fresh looks. Bold outfits.<br>Find your next favourite style.</p>
-            <div class="chic-shop-button">SHOP THE COLLECTION <span aria-hidden="true">↗</span></div>
-            <div class="chic-limited">DISCOVER YOUR NEW LOOK</div>
+      <section class="wrap" id="lifestyleAds" aria-label="G-Star Raw denim fashion sale" hidden>
+        <style>
+          #lifestyleAds{padding-top:8px;padding-bottom:24px}
+          #lifestyleAds .gs-ad{max-width:900px;width:100%;margin:0 auto;background:#080808;color:#fff;overflow:hidden;position:relative;font-family:Arial,sans-serif}
+          #lifestyleAds .gs-header{display:flex;justify-content:space-between;gap:12px;padding:23px 20px;align-items:center}
+          #lifestyleAds .gs-logo{font-size:26px;font-weight:1000;letter-spacing:-1.5px}
+          #lifestyleAds .gs-edition{border:1px solid #aaa;padding:9px 12px;font-size:10px;letter-spacing:2px}
+          #lifestyleAds .gs-hero{height:410px;position:relative;overflow:hidden;background:#151515}
+          #lifestyleAds .gs-hero iframe{position:absolute;width:100%;height:100%;left:0;top:0;border:0;pointer-events:none;transform:scale(1.15)}
+          #lifestyleAds .gs-hero:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#080808 0%,transparent 75%,rgba(0,0,0,.25))}
+          #lifestyleAds .gs-hero-text{position:absolute;z-index:2;bottom:35px;left:22px}
+          #lifestyleAds .gs-hero-text h2{font-size:clamp(45px,10vw,80px);line-height:.85;font-weight:1000;letter-spacing:-4px;margin:0}
+          #lifestyleAds .gs-hero-text h2 span,#lifestyleAds .gs-offer h3 span{color:#d9ff00}
+          #lifestyleAds .gs-hero-text p{margin:15px 0 0;font-size:12px;letter-spacing:3px}
+          #lifestyleAds .gs-videos{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:10px 12px}
+          #lifestyleAds .gs-video-card{height:245px;position:relative;overflow:hidden;background:#222}
+          #lifestyleAds .gs-video-card iframe{width:100%;height:100%;border:0;transform:scale(1.25);pointer-events:none}
+          #lifestyleAds .gs-video-label{position:absolute;bottom:0;left:0;width:100%;padding:35px 10px 14px;background:linear-gradient(transparent,rgba(0,0,0,.9));font-weight:900;letter-spacing:2px;font-size:14px;pointer-events:none}
+          #lifestyleAds .gs-video-label small{display:block;color:#d9ff00;font-size:9px;margin-top:6px}
+          #lifestyleAds .gs-offer{padding:27px 20px 0;text-align:center}
+          #lifestyleAds .gs-kicker{font-size:11px;letter-spacing:5px;color:#aaa}
+          #lifestyleAds .gs-offer h3{font-size:clamp(55px,12vw,90px);font-weight:1000;letter-spacing:-5px;line-height:1;margin:15px 0}
+          #lifestyleAds .gs-offer>p{font-size:13px;letter-spacing:2px;color:#ddd;margin:0}
+          #lifestyleAds .gs-collections{display:flex;gap:10px;margin:25px 0}
+          #lifestyleAds .gs-collection{flex:1;border:1px solid #777;padding:17px 5px;font-size:12px;letter-spacing:2px}
+          #lifestyleAds .gs-collection strong{display:block;font-size:18px;margin-bottom:7px}
+          #lifestyleAds .gs-cta{display:block;background:#d9ff00;color:#000;text-decoration:none;font-weight:1000;letter-spacing:2px;padding:21px 10px;font-size:15px;transition:background .3s,transform .3s}
+          #lifestyleAds .gs-cta:hover{background:#fff;transform:scale(1.01)}
+          #lifestyleAds .gs-footer{padding:17px;text-align:center;font-size:10px;letter-spacing:2px;color:#999}
+          @media(max-width:480px){#lifestyleAds .gs-hero{height:360px}#lifestyleAds .gs-video-card{height:205px}#lifestyleAds .gs-header{padding:19px 15px}#lifestyleAds .gs-videos{padding:8px;gap:6px}#lifestyleAds .gs-edition{font-size:8px;letter-spacing:1px;padding:8px}}
+          @media(prefers-reduced-motion:reduce){#lifestyleAds .gs-cta{transition:none}}
+        </style>
+        <div class="gs-ad">
+          <div class="gs-header">
+            <div class="gs-logo">G-STAR RAW</div>
+            <div class="gs-edition">DENIM COLLECTION</div>
           </div>
-          <div class="chic-looks" aria-hidden="true">
-            <span class="chic-sticker"><span>UP TO</span><b>70%</b><span>OFF</span></span>
-            <span class="chic-look chic-look-1">
-              <span class="chic-look-photo"><img src="assets/chic-party-glitter-dress.webp" alt="" width="480" height="538" loading="lazy" decoding="async"><img src="assets/chic-party-sparkle-set.webp" alt="" width="480" height="538" loading="lazy" decoding="async"><img src="assets/chic-party-velvet-sequin.webp" alt="" width="480" height="538" loading="lazy" decoding="async"><img src="assets/chic-street-sequin-pants.webp" alt="" width="480" height="538" loading="lazy" decoding="async"></span>
-              <span class="chic-look-caption">Party Glam</span>
-            </span>
-            <span class="chic-look chic-look-2">
-              <span class="chic-look-photo"><img src="assets/chic-street-fur-coat.webp" alt="" width="480" height="538" loading="lazy" decoding="async"><img src="assets/chic-street-sequin-blazer.webp" alt="" width="480" height="538" loading="lazy" decoding="async"><img src="assets/chic-party-ruched-dress.webp" alt="" width="480" height="538" loading="lazy" decoding="async"><img src="assets/chic-street-cargo-crop.webp" alt="" width="480" height="538" loading="lazy" decoding="async"></span>
-              <span class="chic-look-caption">City Chic</span>
-            </span>
-            <span class="chic-look chic-look-3">
-              <span class="chic-look-photo"><img src="assets/chic-sun-slit-dress.webp" alt="" width="480" height="538" loading="lazy" decoding="async"><img src="assets/chic-sun-leopard-set.webp" alt="" width="480" height="538" loading="lazy" decoding="async"><img src="assets/chic-sun-floral-jumpsuit.webp" alt="" width="480" height="538" loading="lazy" decoding="async"><img src="assets/chic-sun-denim-shirt.webp" alt="" width="480" height="538" loading="lazy" decoding="async"></span>
-              <span class="chic-look-caption">Sunny Days</span>
-            </span>
+          <section class="gs-hero">
+            <iframe src="https://www.youtube-nocookie.com/embed/bvrKLp29Qh0?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=bvrKLp29Qh0&amp;controls=0&amp;playsinline=1&amp;rel=0" allow="autoplay; encrypted-media" title="G-Star Denim Campaign"></iframe>
+            <div class="gs-hero-text">
+              <h2>RAW.<br><span>REAL.</span><br>YOU.</h2>
+              <p>DENIM THAT MOVES WITH YOU</p>
+            </div>
+          </section>
+          <div class="gs-videos">
+            <div class="gs-video-card">
+              <iframe src="https://www.youtube-nocookie.com/embed/lgdJcEsnUM8?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=lgdJcEsnUM8&amp;controls=0&amp;playsinline=1&amp;rel=0" allow="autoplay; encrypted-media" title="G-Star Men's Denim Fashion Film"></iframe>
+              <div class="gs-video-label">MEN'S STYLE<small>EXPLORE THE DENIM</small></div>
+            </div>
+            <div class="gs-video-card">
+              <iframe src="https://www.youtube-nocookie.com/embed/bvrKLp29Qh0?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=bvrKLp29Qh0&amp;controls=0&amp;playsinline=1&amp;rel=0" allow="autoplay; encrypted-media" title="G-Star Women's Denim Fashion Film"></iframe>
+              <div class="gs-video-label">WOMEN'S STYLE<small>DISCOVER YOUR LOOK</small></div>
+            </div>
           </div>
-          <div class="chic-side-text" aria-hidden="true">STYLE • BEAUTY • CONFIDENCE</div>
-          <div class="chic-bottom-line" aria-hidden="true"><div class="chic-marquee"><span>NEW SEASON</span><span>✦</span><span>NEW YOU</span><span>✦</span><span>DRESSES</span><span>✦</span><span>CO-ORD SETS</span><span>✦</span><span>SEQUIN &amp; SPARKLE</span><span>✦</span><span>OUTERWEAR</span><span>✦</span><span>UP TO 70% OFF</span><span>✦</span><span>NEW SEASON</span><span>✦</span><span>NEW YOU</span><span>✦</span><span>DRESSES</span><span>✦</span><span>CO-ORD SETS</span><span>✦</span><span>SEQUIN &amp; SPARKLE</span><span>✦</span><span>OUTERWEAR</span><span>✦</span><span>UP TO 70% OFF</span><span>✦</span></div></div>
-          <a class="chic-click-layer" href="https://rzekl.com/c/gf807z8tareed0414bd0312b8f391a/" target="_blank" rel="sponsored noopener" aria-label="Shop the new fashion collection, up to 70% off (opens in a new tab)"></a>
+          <section class="gs-offer">
+            <div class="gs-kicker">THE DENIM SALE EVENT</div>
+            <h3>UP TO<br><span>50% OFF</span></h3>
+            <p>MEN'S &amp; WOMEN'S FASHION DEALS</p>
+            <div class="gs-collections">
+              <div class="gs-collection"><strong>01</strong>MEN'S DEALS</div>
+              <div class="gs-collection"><strong>02</strong>WOMEN'S DEALS</div>
+            </div>
+            <a class="gs-cta" href="https://ntzgd.com/c/vdi4nbdn0teed0414bd015fcaa1c5f/" target="_blank" rel="nofollow sponsored noopener noreferrer">SHOP THE COLLECTION →</a>
+            <div class="gs-footer">NO PROMO CODE REQUIRED · EXPLORE THE OFFERS</div>
+          </section>
         </div>
       </section>
       <section class="wrap gaming-banners" id="gamingBanners" aria-label="Sponsored gaming and tech deals" hidden>
