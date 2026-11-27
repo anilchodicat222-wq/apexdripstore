@@ -302,6 +302,13 @@
      "url": "https://www.lenovo.com/cl/es/",
      "tag": "Legion & LOQ laptops"
     }
+    ,{
+     "name": "G-STAR RAW",
+     "category": "Lifestyle",
+     "region": "International",
+     "url": "https://ntzgd.com/c/vdi4nbdn0teed0414bd015fcaa1c5f/",
+     "tag": "Premium denim, apparel & accessories"
+    }
    ],
    "products": [
     {
@@ -2585,6 +2592,101 @@
      "also": [],
      "linkType": "affiliate",
      "shipping": "Availability and delivery options are shown by Walmart at checkout."
+    }
+    ,{
+     "id": "gstar-men-jeans",
+     "name": "G-STAR RAW Men's Jeans",
+     "brand": "G-STAR RAW",
+     "retailer": "G-STAR RAW Official Store",
+     "category": "Lifestyle",
+     "type": "Apparel",
+     "badge": "MEN'S DENIM",
+     "description": "Men's denim styles and jeans from G-STAR RAW.",
+     "image": "assets/streetwear.webp",
+     "affiliateUrl": "https://ntzgd.com/c/vdi4nbdn0teed0414bd015fcaa1c5f/",
+     "featured": false,
+     "region": "International",
+     "currency": "",
+     "price": null,
+     "also": [],
+     "linkType": "affiliate",
+     "shipping": "Availability, prices, sizes, shipping and delivery options depend on the G-STAR RAW store serving your country."
+    }
+    ,{
+     "id": "gstar-women-jeans",
+     "name": "G-STAR RAW Women's Jeans",
+     "brand": "G-STAR RAW",
+     "retailer": "G-STAR RAW Official Store",
+     "category": "Lifestyle",
+     "type": "Apparel",
+     "badge": "WOMEN'S DENIM",
+     "description": "Women's denim fits and jeans from G-STAR RAW.",
+     "image": "assets/fashion.webp",
+     "affiliateUrl": "https://ntzgd.com/c/vdi4nbdn0teed0414bd015fcaa1c5f/",
+     "featured": false,
+     "region": "International",
+     "currency": "",
+     "price": null,
+     "also": [],
+     "linkType": "affiliate",
+     "shipping": "Availability, prices, sizes, shipping and delivery options depend on the G-STAR RAW store serving your country."
+    }
+    ,{
+     "id": "gstar-denim-jackets",
+     "name": "G-STAR RAW Denim Jackets & Coats",
+     "brand": "G-STAR RAW",
+     "retailer": "G-STAR RAW Official Store",
+     "category": "Lifestyle",
+     "type": "Apparel",
+     "badge": "DENIM OUTERWEAR",
+     "description": "Explore denim jackets, outerwear and coats from G-STAR RAW.",
+     "image": "assets/streetwear.webp",
+     "affiliateUrl": "https://ntzgd.com/c/vdi4nbdn0teed0414bd015fcaa1c5f/",
+     "featured": false,
+     "region": "International",
+     "currency": "",
+     "price": null,
+     "also": [],
+     "linkType": "affiliate",
+     "shipping": "Availability, prices, sizes, shipping and delivery options depend on the G-STAR RAW store serving your country."
+    }
+    ,{
+     "id": "gstar-tshirts-tops",
+     "name": "G-STAR RAW T-Shirts & Tops",
+     "brand": "G-STAR RAW",
+     "retailer": "G-STAR RAW Official Store",
+     "category": "Lifestyle",
+     "type": "Apparel",
+     "badge": "T-SHIRTS & TOPS",
+     "description": "Browse T-shirts, shirts, tops and everyday essentials from G-STAR RAW.",
+     "image": "assets/fashion.webp",
+     "affiliateUrl": "https://ntzgd.com/c/vdi4nbdn0teed0414bd015fcaa1c5f/",
+     "featured": false,
+     "region": "International",
+     "currency": "",
+     "price": null,
+     "also": [],
+     "linkType": "affiliate",
+     "shipping": "Availability, prices, sizes, shipping and delivery options depend on the G-STAR RAW store serving your country."
+    }
+    ,{
+     "id": "gstar-accessories",
+     "name": "G-STAR RAW Shoes & Accessories",
+     "brand": "G-STAR RAW",
+     "retailer": "G-STAR RAW Official Store",
+     "category": "Lifestyle",
+     "type": "Everyday Gear",
+     "badge": "SHOES & ACCESSORIES",
+     "description": "Explore footwear and accessories from G-STAR RAW.",
+     "image": "assets/sneakers.webp",
+     "affiliateUrl": "https://ntzgd.com/c/vdi4nbdn0teed0414bd015fcaa1c5f/",
+     "featured": false,
+     "region": "International",
+     "currency": "",
+     "price": null,
+     "also": [],
+     "linkType": "affiliate",
+     "shipping": "Availability, prices, sizes, shipping and delivery options depend on the G-STAR RAW store serving your country."
     }
    ]
   };
